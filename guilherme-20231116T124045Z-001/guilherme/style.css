@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    background-image: url(assets/R.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    background: linear-gradient(135deg, rgba(93, 90, 90, 0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 1px 36px 0 rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    align-items:center;
+    justify-content:space-between;
+    display: flex;
+    width: 100%;
+    height: 10.5vh;
+}
+
+#navs {
+width: 45%;
+justify-content: space-between;
+}
+
+#navs a{
+    font-size: 12pt;
+    color: rgb(180, 180, 180);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    position: relative;
+}
+
+#navs a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#navs a::before {
+    content: '';
+    position:absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(46, 41, 114);
+    transition: all .5s;
+}
+
+#navs a:hover::before{
+    width: 100%;
+}
+
+#logo {
+    margin-left: 30px;
+    
+}
+
+
+#logo h1 a{
+    color: rgb(114, 73, 168);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.botoes_lg_reg {
+    width: auto;
+    margin-right: 30px;
+    position: relative;
+}
+
+#login, #register {
+    height: 1.8rem;
+    border-radius: 15px;
+    border-style: none;
+    position: relative;
+    background:linear-gradient(135deg, rgb(119, 122, 122,0.1), rgba(255,255,255,0));
+    color: bisque;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#login {
+    width: 4.6rem;
+    margin-right: 0.4rem;
+
+}
+
+#login:hover {
+    background-color: white;
+    color: black;
+}
+#register:hover {
+    background-color: white;
+    color: black;
+}
+
+#register {
+    width: 5.8rem;
+    margin-left: 0.4rem;
+
+}
+
+.login_screen {
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 990px;
+}
