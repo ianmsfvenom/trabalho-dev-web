@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>PostTech</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>Postech</p>
+        </div>
+        <div class="header-btns">
+            <input type="button" value="Registrar" id="register-btn">
+            <input type="button" value="Login" id="login-btn">
+        </div>
+    </header>
+    <div class="main">
+        <div class="background-filter"></div>
+        <div class="login-row">
+            <form id="login-form">
+                <h1 class="title-login">Faça seu login</h1>
+                <div class="input-group user-group">
+                    <label for="username">Nome de usuário:</label><br>
+                    <input type="text" name="username" class="input-field" id="username"><br>
+                </div>
+                <div class="input-group password-group">
+                    <label for="password" id="password-label">Senha:</label><br>
+                    <input type="password" name="password" class="input-field" id="password">
+                </div>
+                <div class="input-group button-group">
+                    <input type="submit" class="input-button" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/login.js"></script>
+</body>
+</html>

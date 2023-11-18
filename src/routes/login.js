@@ -2,9 +2,17 @@ const express = require('express')
 const routes = express.Router()
 const User = require('../models/User')
 const { Op } = require('sequelize')
+const path = require('path')
 
 routes.use(express.urlencoded({ extended: false }))
 routes.use(express.json())
+
+routes.use(express.static(path.join(__dirname, '..', 'public')))
+
+routes.get('/login', async (req, res) => {
+    const loginPath = path.join(__dirname, '..', 'views', 'login.html');
+    res.sendFile(loginPath)
+})
 
 routes.post('/login', async (req, res) => {
     const { username, password } = req.body
