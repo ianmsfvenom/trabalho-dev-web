@@ -23,8 +23,8 @@
     <div class="main">
         <div class="background-filter"></div>
         <div class="login-row">
-            <form id="login-form">
-                <h1 class="title-login">Faça seu login</h1>
+            <form id="register-form">
+                <h1 class="title-login">Registrar-se</h1>
                 <div class="input-group user-group">
                     <label for="username">Nome de usuário:</label><br>
                     <input type="text" name="username" class="input-field" id="username-input"><br>
@@ -33,14 +33,18 @@
                     <label for="password" id="password-label">Senha:</label><br>
                     <input type="password" name="password" class="input-field" id="password-input">
                 </div>
-                <p hidden="hidden" class="alert alert-error" id="alert-error"></p>
-                <p hidden="hidden" class="alert alert-success" id="alert-success"></p>
+                <div class="input-group password-group">
+                    <label for="password" id="confirm-password-label">Confirmar senha:</label><br>
+                    <input type="password" class="input-field" id="confirm-password-input">
+                </div>
+                <p class="alert alert-error" id="alert-error"></p>
+                <p class="alert alert-success" id="alert-success"></p>
                 <div class="input-group button-group">
-                    <input type="submit" id="submit-button" class="input-button" value="Login">
+                    <input type="submit" class="input-button" id="submit-button" value="Registrar">
                 </div>
             </form>
         </div>
     </div>
-    <script src="/js/login.js"></script>
+    <script src="/js/register.js"></script>
 </body>
 </html>
