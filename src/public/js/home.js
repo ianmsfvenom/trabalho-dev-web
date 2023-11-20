@@ -27,3 +27,8 @@ document.addEventListener('DOMContentLoaded', async event => {
         observer.observe(card);
     });
 })
+
+document.getElementById('logout-btn').addEventListener('click', async event => {
+    document.cookie = 'auth-token=;'
+    window.location.href = '/login'
+})

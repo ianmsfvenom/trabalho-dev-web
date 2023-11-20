@@ -34,16 +34,6 @@ nav li {
 }
 
 #login-btn, #register-btn {
-    padding: 9px 25px;
-    background-color: transparent;
-    border: 2px solid rgb(165, 1, 165);
-    color: rgb(165, 1, 165);
-    font-family: 'Lato', sans-serif;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-#login-btn, #register-btn {
     padding: 10px 15px;
     background-color: transparent;
     border: 2px solid rgb(165, 1, 165);

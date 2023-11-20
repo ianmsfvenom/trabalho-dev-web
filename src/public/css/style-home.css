@@ -97,3 +97,26 @@ body {
     color: white;
     font-weight: 500;
 }
+
+#logout-btn {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid rgb(165, 1, 165);
+    color: rgb(165, 1, 165);
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: color 0.3s linear;
+    box-shadow: 0 0 5px rgb(165, 1, 165);
+    cursor: pointer;
+}
+
+#logout-btn:hover {
+    cursor: pointer;
+    background-color: rgb(165, 1, 165);
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 0 5px rgb(165, 1, 165), 
+    0 0 50px rgb(165, 1, 165), 0 0 100px rgb(165, 1, 165),
+    0 0 200px rgb(165, 1, 165), 0 0 400px rgb(165, 1, 165),;
+}
