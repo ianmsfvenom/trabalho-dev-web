@@ -19,7 +19,7 @@ header {
 body {
     background: url('../images/background-home.jpg') center/cover no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .main {

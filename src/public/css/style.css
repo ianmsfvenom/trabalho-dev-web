@@ -14,6 +14,7 @@ header {
     padding: 30px 5%;
     background-color: rgb(19, 19, 19);
     opacity: 86%;
+    box-shadow: 0 0 10px rgb(165, 1, 165);
 }
 
 .logo {
@@ -85,15 +86,17 @@ nav li {
     width: 450px;
     height: auto;
     border-radius: 10px;
-    background-color: rgba(41, 41, 41, 0.8);
+    background-color: rgba(29, 29, 29, 0.5);
     padding: 20px;
     margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(5px);
     border: 2px solid rgb(190, 0, 190);
     animation: fadeInUp 1s ease-out forwards;
+    box-shadow: 0 0 20px rgb(165, 1, 165);
+
 }
 
 
@@ -132,6 +135,7 @@ nav li {
     font-weight: bold;
     font-size: 17px;
     padding: 0 15px;
+    letter-spacing: 1.2px;
 }
 
 .input-button:hover {
