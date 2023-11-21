@@ -24,6 +24,7 @@ header {
     letter-spacing: 1px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 nav li {

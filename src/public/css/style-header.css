@@ -39,6 +39,7 @@ header {
     cursor: pointer;
     font-weight: bold;
     transition: color 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 .logo:hover {
